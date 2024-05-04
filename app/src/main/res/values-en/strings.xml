@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App_Pepsi</string>
+    <string name="enviar_un_email">Send an email.</string>
+    <string name="contacto">Contact</string>
+    <string name="volver">Back</string>
+    <string name="acerca_de">About</string>
+    <string name="iniciar_conversaci_n_en_whatsapp">Start a conversation on WhatsApp.</string>
+    <string name="iniciar_comunicacion_por_facebook">Start a conversation on  Facebook</string>
+    <string name="enviar_email">Send an email.</string>
+    <string name="distribuidora_oficial_de_pepsi">Official Pepsi distributor</string>
+    <string name="comunicate_con_nosotros_a_treves_de">Contact us through</string>
+    <string name="salir">Exit</string>
+    <string name="registrase">Register</string>
+    <string name="usuario">User</string>
+    <string name="iniciar_sesion">Log in</string>
+    <string name="contrase_a">Password</string>
+    <string name="iniciar_sesi_n">Log in</string>
+    <string name="bienvenido">Welcome</string>
+</resources>

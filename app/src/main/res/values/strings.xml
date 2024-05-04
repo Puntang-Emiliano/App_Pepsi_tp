@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">App_Pepsi</string>
+    <string name="enviar_un_email">Enviar un Email</string>
+    <string name="contacto">Contacto:</string>
+    <string name="volver">Volver</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="iniciar_conversaci_n_en_whatsapp">Iniciar conversación en WhatsApp</string>
+    <string name="iniciar_comunicacion_por_facebook">Iniciar Comunicacion por Facebook</string>
+    <string name="enviar_email">Enviar un Email</string>
+    <string name="distribuidora_oficial_de_pepsi">DISTRIBUIDORA OFICIAL DE PEPSI</string>
+    <string name="comunicate_con_nosotros_a_treves_de">COMUNICATE CON NOSOTROS A TREVES DE</string>
+    <string name="salir">Salir</string>
+    <string name="registrase">Registrase</string>
+    <string name="usuario">Usuario</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="bienvenido">Bienvenido</string>
+</resources>

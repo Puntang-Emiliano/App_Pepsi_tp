@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pepsifondo"
+    tools:context=".PrincipalActivity">
+
+    <Button
+        android:id="@+id/btnAcerca"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="#2196F3"
+        android:text="@string/acerca_de"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibtnWhatsaap"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="16dp"
+        android:background="#80120A"
+        android:contentDescription="@string/iniciar_conversaci_n_en_whatsapp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/ibtnFacebook"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp1" />
+
+    <ImageButton
+        android:id="@+id/ibtnFacebook"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/iniciar_comunicacion_por_facebook"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/ibtnGmail"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ibtnWhatsaap"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/face1" />
+
+    <ImageButton
+        android:id="@+id/ibtnGmail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/enviar_email"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ibtnFacebook"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mail111" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="monospace"
+        android:text="@string/distribuidora_oficial_de_pepsi"
+        android:textAlignment="center"
+        android:textColor="#D70000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="296dp"
+        android:text="@string/comunicate_con_nosotros_a_treves_de"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/ibtnFacebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="#2196F3"
+        android:text="@string/salir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnAcerca" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
